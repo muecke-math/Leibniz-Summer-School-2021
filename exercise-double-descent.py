@@ -98,7 +98,7 @@ Error = Error / K
 
 plt.plot(N, Error[:,0], "k-", label=f"M = {M[0]}")
 plt.plot(N, Error[:,1], "r-", label=f"M = {M[1]}")
-plt.plot(N, Error[:,2], "b-", label=f"M = {M[3]}")
+plt.plot(N, Error[:,2], "b-", label=f"M = {M[2]}")
 plt.xlabel("sample size")
 plt.ylabel("Excess Risk")
 plt.legend(loc="upper right")
